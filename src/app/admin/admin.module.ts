@@ -36,6 +36,7 @@ import { ManageSeedsComponent } from './manage-seeds/manage-seeds.component';
   imports: [
     CommonModule,
     AdminRoutingModule
+    
   ]
 })
 export class AdminModule { }
