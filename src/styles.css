@@ -1,2 +1,168 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu|Ubuntu+Condensed');
+
+
+
+body{
+    font-family: Ubuntu, Roboto, sans-serif;
+}
+.alert{ margin-bottom: 0rem !important;}
+
+#addGradient{
+    background-image: linear-gradient(141deg, #76dfb1 0%, #1fc8db 51%, #2cb5e8 75%);
+    z-index: 2110;
+}
+
+.card{
+    transition: ease-in-out .3s;
+}
+
+.card-body-hover-effect:hover{
+    transition: ease-in-out .3s;
+    background-color: #dadada;
+}
+
+/* .product-img{
+    height: 50px !important;
+} */
+
+.card-img-top{
+    height: 150px;
+}
+.hover-effect:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+#bodyGradient{
+    background-image: linear-gradient(145deg, #df76a7 0%, #e74ce7 36%, #db127d 93% )
+}
+
+.gradient:hover{border: 2px solid #1fc8db; cursor: pointer;}
+
+#header-img{
+    background-image: url('./app/img/farm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.text-shadow{text-shadow: 0px 4px 10px #000;}
+
+.shadows{
+    /* box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3); */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.16);
+    z-index: 1000;
+}
+
+.select, .bolder-text input[type = text], .bolder-text input[type = email], .bolder-text input[type = password], .bolder-text input[type = date]{
+    font-size: 13pt;
+    font-weight: bold;
+    color: #2cb5e8;
+}
+
+.select, .form-inline input[type = text], .form-inline input[type = email] , .form-inline input[type = password], .form-inline input[type = date]{
+    font-size: 13pt;
+    font-weight: bold;
+    color: #2cb5e8;
+}
+
+.navbar-brand h2, .navbar-brand h3{
+    font-weight: bold;
+}
+
+.z-index{
+    z-index: 0;
+    position: relative;
+}
+
+footer .list-group-item{
+    padding: .20rem .75rem;
+    border: none;
+}
+
+/* zero padding for elements */
+.zero-padding{
+    padding: 0px !important;
+}
+
+/* reduce the height of the dashboard nav bar */
+.thin-navbar{
+    height: 41px !important;
+}
+
+/* change the bg-dark color */
+.bg-dark{
+    background-color: #27293d !important;
+}
+
+.light-dark{
+    background-color: #3f414e;
+}
+.bg-black{
+    background-color: #3c3c3c;
+}
+
+#testamonial{
+    background-image: linear-gradient(141deg, #76dfb1 0%, #1fc8db 51%, #2cb5e8 75%);
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-hr{
+    width: 150px;
+    border-radius: 12px; 
+    height: 0.2rem;
+    background-color: #17a2b8; 
+}
+
+.light-blue{
+    background-color:  #2cb5e8;
+}
+
+.item-green{
+    background-color: #009688;
+}
+
+.i-round-border{
+    border: 5px solid rgb(126, 124, 124);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.footer-img{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.send-behind{
+    position: fixed;
+    z-index: -999;
+    bottom: 0;
+}
+
+.bg-light-dark{
+    background-color: #2a2f33;
+}
+.bg-transparent{
+    background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+.no-bg{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.light-green{
+    background-color: #4caf50;
+}
+
+.mid-dark-green{
+    background-color: #009688;
+}
+
+.txt-decoration{
+    text-decoration: none !important;
+}
