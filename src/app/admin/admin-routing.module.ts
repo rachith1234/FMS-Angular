@@ -2,17 +2,18 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CustomerOrdersComponent } from './customer-orders/customer-orders.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ManageCustomersComponent } from './manage-customers/manage-customers.component';
 import { PurchaseStockComponent } from './purchase-stock/purchase-stock.component';
 
 const routes: Routes = [
-  {path:'admin' , component:DashboardComponent},
-
-  {path:'admin',
-    children:[
-      {path:'customer-orders', component:CustomerOrdersComponent},
-      {path:'purchase-stock', component:PurchaseStockComponent}
-    ]
+  {path:'' ,
+   component:DashboardComponent,
+   children:[
+    {path:'manage-customers' ,component: ManageCustomersComponent},
+   ],
 }
+
+ 
 ];
 
 @NgModule({

@@ -6,13 +6,11 @@ import { OurProductsComponent } from './our-products/our-products.component';
 import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
-  {path:'main', component : MainComponent},
-  {path:'register', component : RegisterComponent},  
-  {path:'our-products', component : OurProductsComponent},
-  {path:'footer', component : FooterComponent}
-  
-
-  
+  {
+    path: '',
+    loadChildren: () => import('./main/main.module').then(m => m.MainModule)
+  },
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then((m) => m.AdminModule), },
 
 ];
 
