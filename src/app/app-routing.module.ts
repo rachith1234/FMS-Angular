@@ -4,6 +4,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { OurProductsComponent } from './our-products/our-products.component';
 import { RegisterComponent } from './register/register.component';
+import { DashboardComponent } from './admin/dashboard/dashboard.component';
 
 const routes: Routes = [
   {
