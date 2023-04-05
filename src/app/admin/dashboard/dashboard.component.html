@@ -1,2 +1,32 @@
-<app-dashboard-pannel></app-dashboard-pannel>
-<router-outlet></router-outlet>
+<div class="col-md-12 bg-light-dark zero-padding">
+    <nav class="navbar navbar-expand-lg bg-black thin-navbar">
+        <div class="navbar-brand text-light ml-3"><a class="text-light">FMS Dashboard</a></div>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-light">Welcome! </a></li>
+                <li class="nav-item my-auto">
+                    <form action="">
+                        <button class="btn btn-danger btn-sm" name="logout" type="submit">
+                            <span class="mr-2"><i class="fas fa-power-off"></i></span>Logout
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <!-- First child div with 3 columns -->
+        <div><app-dashboard-pannel></app-dashboard-pannel></div>
+      </div>
+      <router-outlet></router-outlet>
+      <div class="col-md-9">
+        <!-- Second child div with 9 columns -->
+        <div>Content goes here</div>
+      </div>
+    </div>
+  </div>
+  

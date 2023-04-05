@@ -17,6 +17,7 @@ import { ManageFruitsComponent } from './manage-fruits/manage-fruits.component';
 import { ManageSeedsComponent } from './manage-seeds/manage-seeds.component';
 
 
+
 @NgModule({
   declarations: [
     DashboardPannelComponent,
@@ -31,11 +32,14 @@ import { ManageSeedsComponent } from './manage-seeds/manage-seeds.component';
     ManageProductCategoryComponent,
     ManageVegitablesComponent,
     ManageFruitsComponent,
-    ManageSeedsComponent
+    ManageSeedsComponent,
+    
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    
+
     
   ]
 })
