@@ -1,4 +1,4 @@
-<div class="col-md-12 bg-light-dark zero-padding">
+<div class="col-md-12 bg-light-dark zero-padding" id="navbar">
     <nav class="navbar navbar-expand-lg bg-black thin-navbar">
         <div class="navbar-brand text-light ml-3"><a class="text-light">FMS Dashboard</a></div>
         <div class="collapse navbar-collapse">
@@ -18,15 +18,22 @@
 
 <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3">
-        <!-- First child div with 3 columns -->
-        <div><app-dashboard-pannel></app-dashboard-pannel></div>
-      </div>
-      <router-outlet></router-outlet>
-      <div class="col-md-9">
-        <!-- Second child div with 9 columns -->
-        <div>Content goes here</div>
-      </div>
+        <div class="col-md-3" id="col3">
+            <!-- First child div with 3 columns -->
+            <div><app-dashboard-pannel></app-dashboard-pannel></div>
+        </div>
+        
+        <div class="col-md-9" id="content">
+            <!-- Second child div with 9 columns -->
+            <router-outlet></router-outlet>
+            
+        </div>
     </div>
-  </div>
-  
+</div>
+
+<div class="col-md-12 bg-light-dark zero-padding" >
+    <nav class="navbar navbar-expand-lg bg-black thin-navbar">
+       
+        
+    </nav>
+</div>

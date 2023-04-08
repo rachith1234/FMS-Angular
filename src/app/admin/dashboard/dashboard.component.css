@@ -1,4 +1,28 @@
 .container-fluid {
     padding-left: 0;
+    
   }
+
+ #col3{
+  background-color:  #3c3c3c;
+
+ }
   
+.col-md-3{
+
+  background-color: #212529;
+}
+
+  
+  .container-fluid .row{
+    border-radius: 0;
+  }
+
+  #content{
+    background-color: #212529;
+    padding-top: 10px;
+  }
+
+  .footer{
+    background-color:  #3c3c3c;
+  }
