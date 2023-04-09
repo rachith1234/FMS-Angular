@@ -1,1 +1,46 @@
-<p>product-category works!</p>
+<div class="container-fluid light-dark">
+    <div class="row">
+        <div class="col-md-12 bg-black  zero-padding">
+            <div class="container-fluid my-2">
+                <div class="breadcrumb bg-black table-responsive shadows">
+                    <h3 class=" text-light">Add New Product Category</h3>
+                </div>
+                <div class="col-md-4 bg-light  float-left py-5">
+                    <h4 class='text-center'>Add new product into category</h4>
+                    <form action=""  class="bolder-text " >
+                        <div class="form-group">
+                            <select name="product_type" class="form-control select" id="" required>
+                                <option value="">Select a Product Category</option>
+                                <option value="1">Friuts</option>
+                                <option value="2">Vegitable</option>
+                                <option value="3">Seeds</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="product_name" placeholder="Enter the product name" class="form-control" required="required">
+                        </div>
+                        <div class="mx-auto ">
+                            <button type="submit" name="add" class="btn btn-block btn-info">Add</button>
+                        </div>  
+                    </form>
+                </div>
+                <div class="col-md-8 bg-black text-light  float-right table-responsive mb-2">
+                    <div class='mt-2'>
+                        <h4 class='text-center'>Upload product image</h4>
+                    </div>
+                    <table class="table table-sm">
+                        <tr>
+                            <th>Product Id</th>
+                            <th>Product Name</th>
+                            <th>Product Image</th>
+                           
+                            <th class="text-center">Upload Product Image</th>
+                        </tr>
+                       
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ </div>
