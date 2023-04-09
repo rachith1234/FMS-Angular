@@ -1,1 +1,37 @@
-<p>add-product works!</p>
+<div class="container-fluid py-2 z-index bg-light" id="register">
+    <div class="row">
+        <div class="col-lg-6 col-md-12 mx-auto shadows py-3">
+            <h2 class="text-center text-info">Add new Product</h2>
+            <form action=""  class="bolder-text" >
+                
+
+                <div class="form-group">
+                    <select name="product_id" class="form-control select" id="" required>
+                        <option value="">Select item you need to add</option>
+                        
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    
+                    <input type="text" name="item_quantity" id="address" placeholder="Enter the quantity in (KG)" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                  
+                    <input type="text" name="price" id="phone" placeholder="Enter the unit price" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                    
+                    <input type="hidden" name="farmer_id" id="email" class="form-control" value="" required="required">
+                </div>
+
+                <div class="mx-auto ">
+                    <button type="submit" name="add_item" class="btn btn-block btn-info">Add Product</button>
+                </div>                      
+                
+            </form>
+        </div>
+    </div>
+    <br>
+    <hr>
+</div>
