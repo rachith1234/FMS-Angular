@@ -20,6 +20,8 @@ const routes: Routes = [
   {path:'' ,
    component:DashboardComponent,
    children:[
+    {path:'' ,component: FmsDashboardComponent},
+    {path:'fms-dashboard' ,component: FmsDashboardComponent},    
     {path:'customer-orders' ,component: CustomerOrdersComponent},
     {path:'selling-history' ,component: SellingHistoryComponent},
     {path:'purchase-stock' ,component: PurchaseStockComponent},
@@ -31,7 +33,7 @@ const routes: Routes = [
     {path:'manage-customers' ,component: ManageCustomersComponent},
     {path:'purchase-history' ,component: PurchaseHistoryComponent},
     {path:'manage-fruits' ,component: ManageFruitsComponent},
-    {path:'fms-dashboard' ,component: FmsDashboardComponent},
+    
    ],
 }
 
