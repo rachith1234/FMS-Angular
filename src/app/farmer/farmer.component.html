@@ -1,1 +1,18 @@
-<p>farmer works!</p>
+
+<div class="container-fluid my-3">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <div class="btn-group mx-auto" role="group">
+                <a href="current_stock.php" class="btn btn-primary text-light">Current stock</a>
+                <a href="add_item.php" class="btn btn-primary text-light">Add Product</a>
+                <a class="btn btn-success" >Sold
+                    <span class="pl-2"><i class="fas fa-shopping-cart"></i></span>
+                </a>
+                <form action="" >
+                    <button name="logout" class="btn btn-danger text-light"><span class="pl-2 pr-1"><i class="fas fa-power-off"></i></span>Logout</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
