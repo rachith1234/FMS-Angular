@@ -14,6 +14,7 @@ import { ManageSeedsComponent } from './manage-seeds/manage-seeds.component';
 import { ManageProductCategoryComponent } from './manage-product-category/manage-product-category.component';
 import { ManageFruitsComponent } from './manage-fruits/manage-fruits.component';
 import { ManageFarmersComponent } from './manage-farmers/manage-farmers.component';
+import { FmsDashboardComponent } from './fms-dashboard/fms-dashboard.component';
 
 const routes: Routes = [
   {path:'' ,
@@ -30,6 +31,7 @@ const routes: Routes = [
     {path:'manage-customers' ,component: ManageCustomersComponent},
     {path:'purchase-history' ,component: PurchaseHistoryComponent},
     {path:'manage-fruits' ,component: ManageFruitsComponent},
+    {path:'fms-dashboard' ,component: FmsDashboardComponent},
    ],
 }
 
