@@ -15,6 +15,7 @@ import { ManageProductCategoryComponent } from './manage-product-category/manage
 import { ManageVegitablesComponent } from './manage-vegitables/manage-vegitables.component';
 import { ManageFruitsComponent } from './manage-fruits/manage-fruits.component';
 import { ManageSeedsComponent } from './manage-seeds/manage-seeds.component';
+import { FmsDashboardComponent } from './fms-dashboard/fms-dashboard.component';
 
 
 
@@ -33,6 +34,7 @@ import { ManageSeedsComponent } from './manage-seeds/manage-seeds.component';
     ManageVegitablesComponent,
     ManageFruitsComponent,
     ManageSeedsComponent,
+    FmsDashboardComponent,
     
   ],
   imports: [
