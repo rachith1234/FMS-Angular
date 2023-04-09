@@ -5,10 +5,10 @@ import { OrdersComponent } from './orders/orders.component';
 import { BuyingComponent } from './buying/buying.component';
 
 const routes: Routes = [
-  {path:'' ,
-   component:CustomerComponent,
+  {path:'' , component:CustomerComponent,
    children:[
-    {path:'' ,component: BuyingComponent},
+    {path:'' , component:BuyingComponent,},
+    {path:'buying' ,component: BuyingComponent},
     {path:'orders' ,component: OrdersComponent},
     
    ],
